@@ -1,92 +1,117 @@
 # AI 热点汇总 — Claude / Agent / Vibe-Coding
 > 日期：2026-04-01
 
+---
+
+## 当日爆发项目（新增 star ≥ 1000）
+
+> 数据来源：GitHub Trending 今日榜单实时抓取
+
+| 项目名 | 简介 | 当日新增 ⭐ | 总 ⭐ | 语言 |
+|--------|------|:---------:|:----:|------|
+| [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) | Open-source frontier voice AI | 🔥 3,863 | 33,276 | Python |
+| [obra/superpowers](https://github.com/obra/superpowers) | Agentic skills framework & software development methodology | 🔥 2,620 | 128,344 | Shell |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | Practice guide for Claude perfection | 🔥 2,407 | 28,884 | HTML |
+| [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | A visual, example-driven guide to Claude Code with templates | 🔥 2,390 | 13,337 | Python |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | 🔥 1,907 | 20,473 | Python |
+| [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) | Teams-first multi-agent orchestration for Claude Code | 🔥 1,126 | 19,262 | TypeScript |
+
+---
+
 ## GitHub 热门项目 — AI / Claude / Agent
 
 | 项目名 | 简介 | 亮点 |
 |--------|------|------|
-| [anthropics/claude-code](https://github.com/anthropics/claude-code) | Anthropic 官方 Claude Code 终端智能编程工具 | 2026-03-31 源码发布至 npm，引发全网热议 |
-| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Claude Code 精选技能、Hooks、插件、Agent 编排器合集 | 含"Codebase to Course"等实用技能，社区活跃 |
-| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ Agent 技能合集，兼容 Codex/Cursor/Gemini CLI | 覆盖多平台，官方与社区双轨并行 |
-| [caramaschiHG/awesome-ai-agents-2026](https://github.com/caramaschiHG/awesome-ai-agents-2026) | 2026 年最全 AI Agent 框架与工具列表，300+ 资源 | 每月更新，ByteDance 框架曾登 GitHub Trending #1（25k+ stars）|
-| [th3vib3coder/vibe-science](https://github.com/th3vib3coder/vibe-science) | 对抗式 Agent 循环，Claude Code 插件，科研完整性优先 | Falsification-first 研究运行时，vibe coding 方向新星 |
-| [FlorianBruniaux/claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | Claude Code 从入门到高阶使用完整指南 | 含模板、Quiz、Cheatsheet，适合系统学习 |
-| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | Claude Code 最佳实践案例集 | 含 /weather-orchestrator、Agent 团队协作示例 |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Claude Code 精选资源列表（skills、hooks、slash-commands、插件） | 社区驱动，覆盖完整 Claude Code 生态 |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ agent skills，兼容 Codex、Gemini CLI、Cursor 等 | 跨平台兼容，官方团队出品 |
+| [caramaschiHG/awesome-ai-agents-2026](https://github.com/caramaschiHG/awesome-ai-agents-2026) | 2026 年最全 AI Agent 框架与工具清单（300+ 资源，20+ 分类） | 每月更新，覆盖面最广 |
+| [th3vib3coder/vibe-science](https://github.com/th3vib3coder/vibe-science) | 对抗性 agent 循环，用于可验证的 vibe 研究，Claude Code 插件 | 以证伪为核心，integrity-first 研究范式 |
+| [FlorianBruniaux/claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | Claude Code 从入门到高级用户完整文档，含 quiz 和 cheatsheet | 内容最系统，含生产级模板 |
+
+---
 
 ## GitHub 热门项目 — 视频剪辑自动化
 
-| 项目名 | 简介 | star 数 / 近期增长 |
-|--------|------|-------------------|
-| [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) | AI 视频剪辑 Agent，自然语言驱动意图式导演模式，LLM 规划 + 工具编排 | 2026-02 正式开源，近期新增 ASR 自动去除口误/重复句功能，增长迅速 |
-| [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT) | YouTube Shorts / TikTok 自动化实验框架，EditingEngine 基于 Editing Markup Language | 老牌高星项目，持续迭代 |
-| [HKUDS/ViMax](https://github.com/HKUDS/ViMax) | 全流程 AI 视频生成 Agent（导演+编剧+制片+生成一体化），输入叙事即输出成片 | 港大出品，2026 年受关注度高 |
-| [debarch777/AI-Video-Editor](https://github.com/debarch777/AI-Video-Editor) | LLM 驱动的 CLI 视频自动化工具，转录→分析→渲染字幕+特效一键完成 | 面向 talking-head 短视频，社媒场景适配 |
-| [jungdj/AI-Effects](https://github.com/jungdj/AI-Effects) | 自动化 Web 视频编辑工具 | 轻量级，适合快速原型 |
+| 项目名 | 简介 | ⭐ / 近期增长 |
+|--------|------|-------------|
+| [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) | AI 视频编辑 agent，自然语言交互 + LLM 规划 + Style Skills 复用，支持人工介入 | 2026-03 新增 ASR 粗剪技能 |
+| [HKUDS/ViMax](https://github.com/HKUDS/ViMax) | ViMax：Agent 视频生成（导演/编剧/制片/生成器一体化） | 端到端全流程，学术出品 |
+| [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT) | YouTube Shorts / TikTok 频道自动化 AI 框架，LLM 驱动剪辑语言 | 老牌项目，持续高星 |
+| [debarch777/AI-Video-Editor](https://github.com/debarch777/AI-Video-Editor) | AI CLI 工具，自动将 talking-head 视频转换为带字幕的社交短片 | LLM 全驱动，零手动剪辑 |
+
+---
 
 ## 论坛热门帖子
 
 ### Hacker News
+- 🔥 [Claude Code is all you need](https://news.ycombinator.com/item?id=44864185) — 深度解析 .claude/ 文件夹结构，556 points 登顶今日 #1
+- [How I'm Productive with Claude Code](https://news.ycombinator.com/item?id=47494890) — 开发者工作流分享
+- [Learn Claude Code by doing, not reading](https://news.ycombinator.com/item?id=47579229) — 实战学习方法论
+- [Tell HN: I'm 60 years old. Claude Code has re-ignited a passion](https://news.ycombinator.com/item?id=47282777) — 感人故事，引发大量共鸣
 
-- [Claude Code is all you need](https://news.ycombinator.com/item?id=44864185) — Claude Code 深度使用讨论，556 点，登上 HN #1
-- [How I'm Productive with Claude Code](https://news.ycombinator.com/item?id=47494890) — 开发者生产力实战经验分享
-- [Tell HN: I'm 60 years old. Claude Code has re-ignited a passion](https://news.ycombinator.com/item?id=47282777) — 60 岁开发者帖子爆红，1058 点 + 300 评论，引发代际共鸣
+### Reddit / 社区
+- Claude Code 在 Vibe Kanban 平台的使用占比达 **70%**，无其他工具超过 20%
+- Claude Code 被认定为"新一代 builder 的默认开发方式"，非技术用户也开始 clone 仓库并上线产品
 
-### DEV Community / Reddit
+### DEV Community
+- [Claude Code's Entire Source Code Just Leaked — 512,000 Lines Exposed](https://dev.to/evan-dong/claude-codes-entire-source-code-just-leaked-512000-lines-exposed-3139) — Anthropic 发布含 source map 的 npm 包，泄露内部 TypeScript 源码、prompt 及未发布功能（如 `kairos` 模式、Buddy System、Undercover 模式）
 
-- [Claude Code's Entire Source Code Just Leaked — 512,000 Lines Exposed](https://dev.to/evan-dong/claude-codes-entire-source-code-just-leaked-512000-lines-exposed-3139) — 2026-03-31 源码泄露事件，揭露未发布功能 `kairos`、`Buddy System`、`Undercover mode`
-- [The 60-Year-Old Developer Who Broke Hacker News](https://dev.to/matthewhou/the-60-year-old-developer-who-broke-hacker-news-this-is-what-vibe-coding-actually-looks-like-11l7) — Vibe Coding 真实面貌深度分析
-- [Claude Code Just Hit #1 on Hacker News](https://dev.to/max_quimby/claude-code-just-hit-1-on-hacker-news-heres-everything-you-need-to-know-j74) — 事件完整梳理
+---
 
 ## 科技公司最新动态
 
 ### Anthropic
-- **Claude Code 源码意外泄露（2026-03-31）**：将 Claude Code 发布至 npm 时附带了 source map，导致 512,000 行 TypeScript 源码、内部 prompts、Feature Flags 及未发布功能（`kairos` 模式、`Buddy System` 宠物功能、`Undercover` 模式）被还原并公开讨论。
+- Claude Code 生态持续爆发，今日 GitHub Trending 中 6 个项目新增 star ≥ 1000，全部与 Claude Code 相关
+- 源码泄露事件（3月31日）引发广泛讨论，暴露内部功能代号 `kairos`、Buddy System 等未发布特性
 
-### Cursor（Anysphere）
-- **Composer 2 模型发布（2026-03-19）**：首次自研 frontier 级编码模型，Terminal-Bench 2.0 得分 **61.7%**，超越 Claude Opus 4.6（58.0%），价格仅 **$0.50/M tokens**（Opus 的十分之一）。
-- 估值谈判中达 **$500 亿**，日活用户突破 **100 万**，企业客户 **5 万家**（含 Stripe、Figma）。
+### Cursor / Anysphere
+- **3月19日**：发布 Composer 2 — 首个由编程工具公司自研的前沿 AI 模型
+  - Terminal-Bench 2.0 得分 61.7%，超越 Claude Opus 4.6（58.0%）
+  - 价格 $0.50/M tokens，为 Anthropic 旗舰模型的 **1/10**
+  - 日活用户 100万+，企业客户 5万+，ARR 达 $20亿（截至 2026-02）
+  - 估值谈判中，目标约 **$500亿**
 
 ### OpenAI
-- 以 **$30 亿** 收购 Windsurf（原 Codeium），战略意图：对抗 Anthropic + Google，巩固企业级 AI 编程赛道地位。
-- 此前曾洽谈收购 Cursor，最终转向 Windsurf。
+- 以 **$30亿** 收购 Windsurf，强势布局企业级 AI 代码工具市场
+- Codex 已作为独立应用发布，与 Cursor、Claude Code 直接竞争
 
-### Google / Windsurf
-- Windsurf 被 OpenAI 收购后，AI-native IDE 格局重新洗牌，Google 与 Anthropic 面临更大竞争压力。
+### Google
+- Gemini CLI 已入场 AI 编程工具市场，与 Claude Code、Codex 形成三足鼎立
 
-### 市场格局
-- AI 编码工具战场全面白热化：Claude Code（终端 Agent）vs Cursor Composer 2 vs Codex vs Copilot vs Windsurf，竞争轴从模型能力转向**工作流整合**。
+### Windsurf
+- 被 OpenAI 收购后，此前曾反映 Anthropic 限制其直接访问 Claude 模型的争议仍在发酵
+
+---
 
 ## 行业数据
 
 | 指标 | 数据 |
 |------|------|
-| Cursor 日活用户 | 100 万+ |
-| Cursor 企业客户 | 50,000 家 |
-| Cursor 估值（融资谈判） | ~$500 亿 |
-| OpenAI 收购 Windsurf 价格 | $30 亿 |
-| Composer 2 定价 | $0.50/M input tokens |
+| Claude Code 在 Vibe Kanban 占有率 | 70% |
+| Cursor DAU | 100万+ |
+| Cursor ARR | $20亿（2026-02） |
+| Cursor 企业客户 | 5万+ |
+| Cursor 目标估值 | ~$500亿 |
+| OpenAI 收购 Windsurf 金额 | $30亿 |
 | Composer 2 vs Claude Opus 4.6（Terminal-Bench 2.0） | 61.7% vs 58.0% |
-| Claude Code 源码泄露规模 | ~512,000 行 TypeScript |
-| HN 60岁开发者帖子热度 | 1,058 点，300+ 评论 |
+
+---
 
 ## 来源
 
-- [GitHub - hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
-- [GitHub - VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
-- [GitHub - caramaschiHG/awesome-ai-agents-2026](https://github.com/caramaschiHG/awesome-ai-agents-2026)
-- [GitHub - th3vib3coder/vibe-science](https://github.com/th3vib3coder/vibe-science)
-- [GitHub - anthropics/claude-code](https://github.com/anthropics/claude-code)
-- [GitHub - FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline)
-- [GitHub - RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT)
-- [GitHub - HKUDS/ViMax](https://github.com/HKUDS/ViMax)
+- [GitHub Trending Daily](https://github.com/trending?since=daily)
+- [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)
+- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
+- [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
+- [th3vib3coder/vibe-science](https://github.com/th3vib3coder/vibe-science)
 - [Claude Code is all you need | Hacker News](https://news.ycombinator.com/item?id=44864185)
 - [How I'm Productive with Claude Code | Hacker News](https://news.ycombinator.com/item?id=47494890)
-- [Tell HN: I'm 60 years old. Claude Code has re-ignited a passion](https://news.ycombinator.com/item?id=47282777)
 - [Claude Code Source Leak — DEV Community](https://dev.to/evan-dong/claude-codes-entire-source-code-just-leaked-512000-lines-exposed-3139)
+- [Cursor Composer 2 — Bloomberg](https://www.bloomberg.com/news/articles/2026-03-19/ai-coding-startup-cursor-plans-new-model-to-rival-anthropic-openai)
+- [Cursor Composer 2 beats Claude at 1/10 price](https://aiforautomation.io/news/2026-03-20-cursor-composer-2-ai-model-beats-claude-tenth-price)
+- [OpenAI $3B Windsurf acquisition — VentureBeat](https://venturebeat.com/ai/openais-3b-windsurf-move-the-real-reason-behind-its-enterprise-ai-agent-code-push)
+- [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline)
+- [HKUDS/ViMax](https://github.com/HKUDS/ViMax)
+- [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT)
+- [Top AI Coding Trends 2026](https://beyond.addy.ie/2026-trends/)
 - [Claude Code Reddit Guide 2026](https://www.aitooldiscovery.com/guides/claude-code-reddit)
-- [Cursor Composer 2 takes on Anthropic and OpenAI — Bloomberg](https://www.bloomberg.com/news/articles/2026-03-19/ai-coding-startup-cursor-plans-new-model-to-rival-anthropic-openai)
-- [Cursor Composer 2 beats Claude at 1/10th price](https://aiforautomation.io/news/2026-03-20-cursor-composer-2-ai-model-beats-claude-tenth-price)
-- [OpenAI's $3B Windsurf move — VentureBeat](https://venturebeat.com/ai/openais-3b-windsurf-move-the-real-reason-behind-its-enterprise-ai-agent-code-push)
-- [Why OpenAI opted for Windsurf — TechCrunch](https://techcrunch.com/2025/04/22/why-openai-wanted-to-buy-cursor-but-opted-for-the-fast-growing-windsurf/)
-- [AI Coding Tools War of 2026 — redreamality](https://redreamality.com/blog/ai-coding-tools-war-vibe-coding-mainstream/)
-- [AI Coding Agents Comparison 2026 — Lushbinary](https://www.lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/)
