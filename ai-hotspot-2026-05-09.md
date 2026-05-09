@@ -2,178 +2,130 @@
 > 日期：2026-05-09
 
 ## 当日爆发项目（新增 star ≥ 1000）
-
-> ⚠️ 数据来源于 GitHub Trending 实时榜单 WebFetch，凡当日新增 ≥ 1000 star 的项目无论类型均收录。
+⚠️ 此板块数据来源于 GitHub Trending WebFetch，包含所有当日新增 ≥ 1000 star 的项目。
 
 | 项目名 | 简介 | 当日新增 star | 总 star 数 | 语言 |
 |---|---|---|---|---|
-| [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) | DeepSeek 模型的终端编码 agent | **+3,731** | 21,801 | Rust |
-| [anthropics/financial-services](https://github.com/anthropics/financial-services) | Anthropic 官方金融服务方向资源/skills 包 | **+3,660** | 15,194 | Python |
-| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 面向 AI 编码 agent 的生产级工程 skills | **+1,893** | 35,415 | Shell |
-| [decolua/9router](https://github.com/decolua/9router) | 免费 AI 编码网关，把 Claude Code/Codex/Cursor/Cline/Copilot/Antigravity 接到 40+ 免费 Claude/GPT/Gemini provider | **+1,052** | 5,582 | JavaScript |
+| [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) | 在终端运行的 DeepSeek 模型编程 Agent | +3,731 | 21,862 | Rust |
+| [anthropics/financial-services](https://github.com/anthropics/financial-services) | Anthropic 官方金融服务 AI 示例仓库 | +3,660 | 15,262 | Python |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 面向 AI 编程 Agent 的生产级工程技能集 | +1,893 | 35,484 | Shell |
+| [decolua/9router](https://github.com/decolua/9router) | 连接多家 LLM 供应商的免费无限 AI 编程工具 | +1,052 | 5,621 | JavaScript |
 
 ## GitHub 热门项目 — AI / Claude / Agent
 
 | 项目名 | 简介 | 亮点 |
 |---|---|---|
-| [Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) | DeepSeek 模型的终端 coding agent，Rust 实现 | 当日 +3,731，速度与本地化优势明显 |
-| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | "Production-grade engineering skills for AI coding agents" | 35k+ star，agent skill 标准化样板 |
-| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 从零开始构建智能体教程 | 中文社区 44k+ star，Agent 入门教材 |
-| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 工作生活一体的 agent 协作空间 | TypeScript 76k+ star，多 agent 协作产品 |
-| [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research) | ~95% SimpleQA，所有本地/云 LLM + 10+ 搜索引擎全本地加密 | 当日 +559，Local-first deep research |
-| [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) | 100% 自动化 Agent-Native 交易 | 14.6k star，agent 在金融场景实战代表 |
-| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ agent skills 合集，兼容 Claude Code/Codex/Gemini CLI/Cursor | skill 生态系统的 "awesome" 入口 |
-| [obra/superpowers](https://github.com/) | Agentic skills framework & 软件开发方法论 | 周榜大涨，方法论侧权重 |
-| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 面向 Claude 的多 agent 编排平台 | "Swarm" + 自治工作流 |
-| [VILA-Lab/Dive-into-Claude-Code](https://github.com/VILA-Lab/Dive-into-Claude-Code) | 对 Claude Code 系统化分析与未来 AI agent 系统设计 | 学术化 deep dive |
+| [anthropics/financial-services](https://github.com/anthropics/financial-services) | Anthropic 官方金融领域 AI Agent 示例 | 连续两日爆发，累计 +5003 stars，Python |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | Addy Osmani 出品的生产级 AI Agent 工程技能集 | 连续两日 +1893/+3062，Shell |
+| [decolua/9router](https://github.com/decolua/9router) | 聚合多家 LLM 供应商的免费 AI 编程路由工具 | 今日首次破千，+1052，JavaScript |
+| [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | Agent 原理与实践中文教程 | 44,639 总 star，今日 +667，Python |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 工作与生活的多 Agent 协作平台 | 76,513 总 star，TypeScript |
+| [HKUDS/AI-Trader](https://github.com/HKUDS/AI-Trader) | 100% 全自动 Agent 原生量化交易系统 | 14,660 总 star，Python |
+| [awslabs/aidlc-workflows](https://github.com/awslabs/aidlc-workflows) | AWS 出品的 AI 驱动生命周期自适应工作流规则 | AWS 官方出品，Python |
+| [LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research) | 本地/云 LLM 深度研究引擎，SimpleQA ~95% | 6,748 总 star，今日 +559 |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ Agent Skills，兼容 Claude Code/Codex/Gemini CLI/Cursor | 多家头部团队官方 Skills 汇总 |
+| [VoltAgent/awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) | 2026 年 AI Agent 研究论文精选（涵盖工程/记忆/评估/工作流/自主系统） | 学术研究索引 |
 
 ## GitHub 热门项目 — Agent 驱动 UI/UX 设计
 
 | 项目名 | 简介 | star 数 / 近期增长 | 亮点 |
 |---|---|---|---|
-| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI：Agent-User 交互协议，把 agent 接进前端应用 | 协议层项目，2026 持续走高 | 开放、轻量、事件驱动的标准化协议 |
-| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | DESIGN.md 集合，参考品牌设计系统，丢进项目让 coding agent 直接生成匹配 UI | 周榜热门 | "DESIGN.md → UI 自动对齐" 范式 |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 跨平台专业 UI/UX 设计智能 skill | 上升中 | skill 层封装设计专家知识 |
-| [veluthoor/ui-ux-design-review-agent](https://github.com/veluthoor/ui-ux-design-review-agent) | 用 Gemini 2.0 review AI 生成的 UI，给出配色/组件/无障碍修复 | 个人项目稳步增长 | 解决 "AI 生成 UI 能跑但看着 meh" 痛点 |
-| [RedHat-UX/next-gen-ui-agent](https://github.com/RedHat-UX/next-gen-ui-agent) | 基于用户 prompt + 聊天历史 + 后端数据生成个性化富 UI 组件 | RedHat 出品 | 企业级 UI agent |
-| [agno-agi/agent-ui](https://github.com/agno-agi/agent-ui) | Next.js + Tailwind + TS 的现代 agent 聊天界面 | 通用 agent UI 模板 | 快速搭建 agent 前端 |
-| [opendilab/awesome-ui-agents](https://github.com/opendilab/awesome-ui-agents) | UI agents 资源合集（Web/App/OS） | 资源索引 | 视觉-语言模型操控 UI 的 awesome list |
-| [mustafakendiguzel/claude-code-ui-agents](https://github.com/mustafakendiguzel/claude-code-ui-agents) | 专为 UI/UX 与前端任务设计的 Claude AI agent prompt 集 | 周榜稳定 | prompt 模板侧 |
+| [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | AG-UI：Agent-用户交互协议，标准化 AI Agent 与前端的连接 | 快速增长 | 事件驱动，轻量开放协议 |
+| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 主流品牌设计系统 DESIGN.md 合集，供 Agent 生成匹配 UI | 新兴项目 | Google Labs 贡献 stitch-loop（设计→代码迭代反馈循环） |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 提供设计智能的 AI Skill，支持多平台 UI/UX 构建 | v2.0 | Design System Generator，秒级生成设计系统 |
+| [agno-agi/agent-ui](https://github.com/agno-agi/agent-ui) | Next.js + Tailwind + TypeScript 构建的现代 AI Agent 聊天界面 | 活跃维护 | 生产就绪的 Agent 前端模板 |
+| [mustafakendiguzel/claude-code-ui-agents](https://github.com/mustafakendiguzel/claude-code-ui-agents) | Claude AI Agent Prompt 集合，专为 UI/UX 和前端任务优化 | 社区活跃 | 工作流专项加速 |
+| [veluthoor/ui-ux-design-review-agent](https://github.com/veluthoor/ui-ux-design-review-agent) | Gemini 2.0 审查 AI 生成 UI，给出配色/组件重设计/无障碍建议 | 个人工具开源 | 弥补 AI 生成 UI 审美短板 |
 
 ## GitHub 热门项目 — 自动化测试 / AI Test Generation
 
 | 项目名 | 简介 | star 数 / 近期增长 | 亮点 |
 |---|---|---|---|
-| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | LLM Evaluation Framework，可对 agent / RAG / chatbot 自动生成数据集 + eval suite + 失败 metric 迭代 | 头部 LLM 评测库 | "把 agent 指过去就帮你写测试集"的产品形态 |
-| [githubnext/testpilot](https://github.com/githubnext/testpilot) | 用 LLM 自动为 npm JS/TS 包生成单元测试 | GitHub Next 出品 | 工业化的 LLM 测试生成代表 |
-| [mindfiredigital/AUTOTEST](https://github.com/mindfiredigital/AUTOTEST) | GenAI 框架，分析网页后生成 Python Selenium 自动化测试用例与脚本 | 持续更新 | Web E2E + LLM 落地 |
-| [Kumari-Pragati/Intelligent-Test-Automation](https://github.com/Kumari-Pragati/Intelligent-Test-Automation) | 多 Agent LLM 框架，分别承担测试创建/校验/执行 | 学术+工程结合 | 多 agent 拆解测试生命周期 |
-| [herchila/unittest-ai-agent](https://github.com/herchila/unittest-ai-agent) | 把代码上下文送 GPT-4o 生成单元测试，清洗后落地到目录 | 个人项目，活跃 | 易复用模板 |
-| [aws-samples/genai-test-automation](https://github.com/aws-samples/genai-test-automation) | AWS 出品 GenAI 测试自动化样例 | 官方 reference | 云厂商背书 |
-| [ksm26/Automated-Testing-for-LLMOps](https://github.com/ksm26/Automated-Testing-for-LLMOps) | LLM 应用 CI 工作流，针对性自动化测试 | LLMOps 实践向 | CI 友好 |
-| [LLM-Testing/LLM4SoftwareTesting](https://github.com/LLM-Testing/LLM4SoftwareTesting) | LLM 用于软件测试的论文/工具索引 | 学术资源汇总 | 单元测试、test oracle、系统测试输入生成 |
+| [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | LLM 评估框架，防止 prompt 漂移，覆盖 Agent/RAG/Chatbot | 高 star，持续维护 | 支持 OpenAI Agents / LangChain / CrewAI，支持编写 eval 套件 |
+| [Kumari-Pragati/Intelligent-Test-Automation](https://github.com/Kumari-Pragati/Intelligent-Test-Automation) | 多 Agent LLM 框架：需求提取 → 测试生成 → 执行验证全自动 | 新兴项目 | 多 Agent 协作闭环 |
+| [githubnext/testpilot](https://github.com/githubnext/testpilot) | GitHub Next 出品，LLM 自动为 npm 包生成单元测试 | GitHub 官方 | JS/TS 生态 |
+| [mindfiredigital/AUTOTEST](https://github.com/mindfiredigital/AUTOTEST) | 动态分析网页 → 自动生成测试用例和 Selenium 脚本 | 开源活跃 | 零人工干预，GenAI 驱动 |
+| [aws-samples/genai-test-automation](https://github.com/aws-samples/genai-test-automation) | AWS 出品 Web UI 自动化测试框架，LLM 推理每步操作 | AWS 官方 | 浏览器远程控制 + LLM 推理链 |
+| [herchila/unittest-ai-agent](https://github.com/herchila/unittest-ai-agent) | 调用 GPT-4o 生成高质量单元测试，自动适配项目结构 | 轻量实用 | 一键接入，自动目录适配 |
 
 ## GitHub 热门项目 — 视频剪辑自动化
 
 | 项目名 | 简介 | star 数 / 近期增长 |
 |---|---|---|
-| [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) | 自然语言交互 + LLM 规划 + 工具编排的 AI 视频剪辑 agent，2026-02-10 开源，2026-03-22 上线 ASR-based rough cut skill | 2026 年视频 agent 标志性项目 |
-| [HKUDS/ViMax (AI-Creator)](https://github.com/HKUDS/AI-Creator) | "Director / Screenwriter / Producer / Video Generator 一体"的 agentic 视频生成 | 高校实验室高质量产出 |
-| [mazsola2k/ai-video-editor](https://github.com/mazsola2k/ai-video-editor) | 用 Vision LLM 做剪辑流水线，把数周人工剪辑压缩到分钟级 | 工业向 |
-| [debarch777/AI-Video-Editor](https://github.com/debarch777/AI-Video-Editor) | CLI 工具，把口播原片自动转动态短视频 | 个人开发者向 |
-| [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT) | 实验性 AI 框架，自动化 YouTube Shorts / TikTok 频道 | 长期热门 |
+| [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) | AI 视频剪辑 Agent，自然语言 + LLM 规划 + 工具编排，已与 OpenClaw 集成 | 持续增长 |
+| [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT) | YouTube Shorts / TikTok 频道自动化 AI 框架 | 经典项目，持续维护 |
+| [HKUDS/AI-Creator (ViMax)](https://github.com/HKUDS/AI-Creator) | 集导演/编剧/制片/视频生成于一体的 Agentic 视频生成系统 | 学术项目，功能全面 |
+| [mazsola2k/ai-video-editor](https://github.com/mazsola2k/ai-video-editor) | Vision LLM 驱动的 AI 视频编辑管线，自动生成广播就绪时间线 | 新项目，活跃开发 |
+| [debarch777/AI-Video-Editor](https://github.com/debarch777/AI-Video-Editor) | CLI 工具，将原始对话视频转化为带字幕的社交媒体短视频 | LLM 驱动，轻量 CLI |
 
 ## 论坛热门帖子
 
 ### Hacker News
-- [Claude Code is all you need](https://news.ycombinator.com/item?id=44864185)
-- [Claude Code and the Great Productivity Panic of 2026](https://news.ycombinator.com/item?id=47467922)
-- [The Claude Code Leak](https://news.ycombinator.com/item?id=47609294)
-- [A few random notes from Claude coding quite a bit last few weeks](https://news.ycombinator.com/item?id=46771564)
-- [Vibe coding and agentic engineering are getting closer than I'd like — Simon Willison](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/)
+- [Claude Code and the Great Productivity Panic of 2026](https://news.ycombinator.com/item?id=47467922) — 持续热议，Claude Code 引发生产力焦虑
+- [How I'm Productive with Claude Code](https://news.ycombinator.com/item?id=47494890) — 开发者真实工作流分享
+- [Claude Code is all you need](https://news.ycombinator.com/item?id=44864185) — 经典论点帖
+- [A few random notes from Claude coding](https://news.ycombinator.com/item?id=46771564) — 多周真实使用体验
 
 ### Reddit
-- [r/vibecoding](https://www.reddit.com/r/vibecoding/) — 89k 成员，频繁出现 Claude Code 构建日志
-- [10 Trending Reddit Posts About AI Agents (May 2026)](https://gist.github.com/heiba-wk/990804e51dc01b1b8804d1bad25ca01a) — 5 月初 r/artificial / r/AI_Agents 热帖合集
-- [AI Agents on Reddit, Late April to Early May 2026: Ten Threads About Cost, Reliability, and Real Work](https://dev.to/lura_cardena_7de06f82aacd/ai-agents-on-reddit-late-april-to-early-may-2026-ten-threads-about-cost-reliability-and-real-4f20)
-- 讨论主线：Claude Code 处理终端/架构 + Cursor/Windsurf 处理 IDE 内细化 + Playwright 自动探索软件并更新文档；从 "demo 看着惊艳" 转向 "经济性、可靠性、可重复"
+- r/vibecoding（89k 成员）—— 主流工作流：Lovable/Bolt 快速原型 → Cursor/Claude Code 生产化
+- r/Cursor：AI 编程 Agent 表现不稳定集体吐槽帖 400+ 评论，成 2026 年代表性槽点
+- r/artificial：自主 Agent 具备生产环境访问权限危险性讨论，851 upvotes + 1027 评论
+- [10 Trending Reddit Posts About AI Agents (May 2026)](https://gist.github.com/heiba-wk/990804e51dc01b1b8804d1bad25ca01a)
+
+### 媒体 / 博客
+- [Vibe coding and agentic engineering are getting closer than I'd like (Simon Willison)](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/) — vibe coding 与 agentic engineering 融合趋势深度评论
+- [Karpathy CLAUDE.md: The 65-Line File With 100K Stars](https://miraflow.ai/blog/karpathy-claude-md-100k-github-stars-ai-coding-2026) — 65 行如何改变 AI 开发方式
 
 ## 科技公司最新动态
 
 ### Anthropic
-- Karpathy 1 月底 X 总结的四条 agentic coding 失败模式被 Forrest Chang 蒸馏成 70 行 [`CLAUDE.md`](https://miraflow.ai/blog/karpathy-claude-md-100k-github-stars-ai-coding-2026)，3 个多月内突破 110,000 star，连续 28 天在 GitHub Trending 周榜居首，全球 star 排名第 94。
-- 当日 [`anthropics/financial-services`](https://github.com/anthropics/financial-services) 入榜，新增 +3,660 star，预示官方在垂直行业（金融）skill 集的发力。
-- HN/Reddit 普遍认为 Anthropic 在 OpenAI vs Anthropic 编码工具混战里"目前领先"。
+- `anthropics/financial-services` 连续两日爆发（+1343 → +3660），两日累计 **+5003 stars**，总 star 突破 15,000
+- Claude Code SWE-bench Verified **80.8%**，Vibe Kanban 平台使用占比 **70%**，行业第一
+- 确认限制 Windsurf 直接调用 Claude 模型 API
+
+### Cursor / Anysphere
+- 估值 **$500 亿**，融资 **$20 亿**（a16z + Thrive Capital + Nvidia 领投）
+- ARR **$20 亿**（$100M→$500M→$1B→$2B 仅用 13 个月）
+- Composer 2：$0.50/M token，Terminal-Bench 2.0 **61.7%**
 
 ### OpenAI
-- [Codex 升级版本 4 月发布](https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/)，给到对桌面更多控制权，对标 Anthropic。
-- 2025-04 [对 Cursor 的报价被拒](https://techcrunch.com/2025/04/22/why-openai-wanted-to-buy-cursor-but-opted-for-the-fast-growing-windsurf/)，转向 [3B 收购 Windsurf](https://techfundingnews.com/code-wars-openais-3b-bid-for-windsurf-puts-cursor-microsoft-and-anthropic-on-alert/)；后该交易因 Microsoft 的 IP 冲突崩盘。
+- Codex 大升级：Mac/桌面远程控制、独立云 Agent + 桌面 App
+- $3B Windsurf 收购案因微软 IP 冲突告吹
 
 ### Google
-- 2025-07 以 [2.4B 授权/收购形式拿下 Windsurf 核心团队](https://venturebeat.com/ai/openais-3b-windsurf-move-the-real-reason-behind-its-enterprise-ai-agent-code-push)：CEO Varun Mohan、联合创始人 Douglas Chen + 约 40 名核心工程师。
+- $2.4B acquihire Windsurf 核心团队（CEO 等 40 人）
+- Google Labs 为开源生态贡献 `stitch-loop` skill（设计→代码迭代反馈循环）
 
-### Cursor (Anysphere)
-- ARR 轨迹：2025-01 100M → 2025-06 500M → 2025-11 1B → 2026-02 **2B**。
-- 正在以 ~50B 估值募集 ≥2B 美元，由 a16z 与 Thrive Capital 领投，NVIDIA 战略跟投（[Bloomberg](https://www.bloomberg.com/news/articles/2026-03-19/ai-coding-startup-cursor-plans-new-model-to-rival-anthropic-openai) / [TheNextWeb](https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding)）。
-- 计划自研模型与 Anthropic、OpenAI 直接对位。
-
-### Windsurf / Cognition
-- Google 收编核心后，剩余 IP/产品/品牌/约 210 名员工被 Cognition（Devin 母公司）以约 **250M** 美元接盘。
-- 2026-04 在新东家旗下发布 [Windsurf 2.0](https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/)。
+### Windsurf
+- Cognition 接管 IP + 产品 + ~210 名员工（约 $2.5 亿）
+- Windsurf 2.0（2026 年 4 月）：Agent Command Center + Devin 集成
 
 ## 行业数据
-- **AI 编码工具市场规模**：2026 年达 **128 亿美元**，是 2024 年 51 亿美元的 2.5 倍以上。
-- **Cursor ARR 增速**：13 个月内从 100M → 2B（20 倍）。
-- **Karpathy CLAUDE.md**：3 个多月 110k+ star，周榜冠军 28 天，全球 #94。
-- **GitHub Trending 当日 (2026-05-09)** Top 4 项目当日合计新增超 10,000 star，且全部为 AI/agent 编码方向。
+
+- AI 编程工具 2026 年行业收入：**$128 亿**（vs 2024 年 $51 亿，同比翻倍+）
+- GitHub AI 相关仓库：**430 万+**，LLM 项目 YoY **+178%**（Octoverse 2025）
+- DeepSeek-TUI 四日累计新增：**+2,434 + +2,192 + +5,799 + +3,731 = 14,156**，总 star 突破 **21,862**
+- Anthropic financial-services 两日新增：**+5,003**，总 star **15,262**
+- Cursor ARR：**$20 亿**，估值 **$500 亿**
 
 ## 来源
 
-### GitHub Trending
-- [GitHub Trending — Daily](https://github.com/trending?since=daily)
-- [GitHub Trending — Daily, Chinese](https://github.com/trending?since=daily&spoken_language_code=zh)
-
-### Karpathy / CLAUDE.md / Vibe-coding
-- [Andrej Karpathy's CLAUDE.md: The 65-Line File With 100K GitHub Stars (Miraflow)](https://miraflow.ai/blog/karpathy-claude-md-100k-github-stars-ai-coding-2026)
-- [Karpathy CLAUDE.md: The #1 GitHub Trending File (Pasquale Pillitteri)](https://pasqualepillitteri.it/en/news/1872/karpathy-claude-md-trending-github-llm-coding)
-- [Vibe coding and agentic engineering — Simon Willison](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/)
-- [Top AI Coding Trends for 2026 — Beyond Vibe Coding (Addy Osmani)](https://beyond.addy.ie/2026-trends/)
-- [Claude Code Best Practices: 12 Patterns Agentic Engineers Use](https://levelup.gitconnected.com/claude-code-best-practices-12-patterns-agentic-engineers-use-65264e3eb919?gi=2f1aeaf32502)
-
-### 论坛热帖
-- [Claude Code is all you need — HN](https://news.ycombinator.com/item?id=44864185)
-- [Claude Code and the Great Productivity Panic of 2026 — HN](https://news.ycombinator.com/item?id=47467922)
-- [The Claude Code Leak — HN](https://news.ycombinator.com/item?id=47609294)
-- [A few random notes from Claude coding quite a bit last few weeks — HN](https://news.ycombinator.com/item?id=46771564)
-- [The Claude Code Source Leak (Alex Kim)](https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/)
+- [GitHub Trending (Daily)](https://github.com/trending?since=daily)
+- [GitHub Trending - Chinese](https://github.com/trending?since=daily&spoken_language_code=zh)
+- [Karpathy CLAUDE.md: 65-Line File With 100K Stars](https://miraflow.ai/blog/karpathy-claude-md-100k-github-stars-ai-coding-2026)
+- [Vibe coding and agentic engineering (Simon Willison)](https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/)
+- [Claude Code Best Practices: 12 Patterns](https://levelup.gitconnected.com/claude-code-best-practices-12-patterns-agentic-engineers-use-65264e3eb919)
+- [Vibe Coding on Reddit: What Developers Actually Think](https://www.morphllm.com/reddit-vibe-coding)
 - [10 Trending Reddit Posts About AI Agents (May 2026)](https://gist.github.com/heiba-wk/990804e51dc01b1b8804d1bad25ca01a)
-- [AI Agents on Reddit, Late April–Early May 2026 (DEV.to)](https://dev.to/lura_cardena_7de06f82aacd/ai-agents-on-reddit-late-april-to-early-may-2026-ten-threads-about-cost-reliability-and-real-4f20)
-- [Claude Code Reddit: What Developers Actually Use It For in 2026](https://www.aitooldiscovery.com/guides/claude-code-reddit)
-- [What Hacker News Gets Right About AI Coding Agents in 2026 (Developers Digest)](https://www.developersdigest.tech/blog/what-hacker-news-gets-right-about-ai-coding-agents-2026)
-
-### 科技公司动态
-- [Cursor vs Claude Code vs Windsurf 2026 (ShareUHack)](https://www.shareuhack.com/en/posts/cursor-vs-claude-code-vs-windsurf-2026)
-- [Why OpenAI wanted to buy Cursor but opted for Windsurf — TechCrunch](https://techcrunch.com/2025/04/22/why-openai-wanted-to-buy-cursor-but-opted-for-the-fast-growing-windsurf/)
-- [AI Coding Startup Cursor Plans New Model — Bloomberg](https://www.bloomberg.com/news/articles/2026-03-19/ai-coding-startup-cursor-plans-new-model-to-rival-anthropic-openai)
-- [OpenAI takes aim at Anthropic with beefed-up Codex — TechCrunch](https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/)
-- [Cursor in talks to raise $2B at $50B valuation — TheNextWeb](https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding)
-- [Code wars: OpenAI's $3B bid for Windsurf — TechFundingNews](https://techfundingnews.com/code-wars-openais-3b-bid-for-windsurf-puts-cursor-microsoft-and-anthropic-on-alert/)
-- [OpenAI's $3B Windsurf move — VentureBeat](https://venturebeat.com/ai/openais-3b-windsurf-move-the-real-reason-behind-its-enterprise-ai-agent-code-push)
-- [AI Coding Agents 2026 Comparison — Lushbinary](https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/)
-- [7 Best Cursor Alternatives in 2026 — NxCode](https://www.nxcode.io/resources/news/cursor-alternative-2026-best-ai-code-editors)
-
-### 视频剪辑自动化
-- [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline)
-- [HKUDS/AI-Creator (ViMax)](https://github.com/HKUDS/AI-Creator)
-- [mazsola2k/ai-video-editor](https://github.com/mazsola2k/ai-video-editor)
-- [debarch777/AI-Video-Editor](https://github.com/debarch777/AI-Video-Editor)
-- [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT)
-- [GitHub Topic — ai-video-editor](https://github.com/topics/ai-video-editor?o=desc&s=stars)
-
-### Agent 驱动 UI/UX
+- [Claude Code and the Great Productivity Panic of 2026 | HN](https://news.ycombinator.com/item?id=47467922)
+- [How I'm Productive with Claude Code | HN](https://news.ycombinator.com/item?id=47494890)
+- [Cursor in talks to raise $2B at $50B | The Next Web](https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding)
+- [Cursor Composer 2 | Bloomberg](https://www.bloomberg.com/news/articles/2026-03-19/ai-coding-startup-cursor-plans-new-model-to-rival-anthropic-openai)
+- [OpenAI takes aim at Anthropic with Codex | TechCrunch](https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/)
+- [Anthropic cuts off Windsurf | TechCrunch](https://techcrunch.com/2025/06/03/windsurf-says-anthropic-is-limiting-its-direct-access-to-claude-ai-models/)
+- [AI Coding Agents 2026 Comparison | Lushbinary](https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/)
 - [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui)
 - [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
-- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
-- [veluthoor/ui-ux-design-review-agent](https://github.com/veluthoor/ui-ux-design-review-agent)
-- [agno-agi/agent-ui](https://github.com/agno-agi/agent-ui)
-- [opendilab/awesome-ui-agents](https://github.com/opendilab/awesome-ui-agents)
-- [RedHat-UX/next-gen-ui-agent](https://github.com/RedHat-UX/next-gen-ui-agent)
-- [mustafakendiguzel/claude-code-ui-agents](https://github.com/mustafakendiguzel/claude-code-ui-agents)
-- [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
-
-### 自动化测试
 - [confident-ai/deepeval](https://github.com/confident-ai/deepeval)
-- [githubnext/testpilot](https://github.com/githubnext/testpilot)
-- [mindfiredigital/AUTOTEST](https://github.com/mindfiredigital/AUTOTEST)
-- [Kumari-Pragati/Intelligent-Test-Automation](https://github.com/Kumari-Pragati/Intelligent-Test-Automation)
-- [herchila/unittest-ai-agent](https://github.com/herchila/unittest-ai-agent)
-- [aws-samples/genai-test-automation](https://github.com/aws-samples/genai-test-automation)
-- [ksm26/Automated-Testing-for-LLMOps](https://github.com/ksm26/Automated-Testing-for-LLMOps)
-- [LLM-Testing/LLM4SoftwareTesting](https://github.com/LLM-Testing/LLM4SoftwareTesting)
-
-### 综合榜单与行业分析
-- [Top AI GitHub Repositories in 2026 — ByteByteGo](https://blog.bytebytego.com/p/top-ai-github-repositories-in-2026)
-- [Top GitHub Repositories in 2026 That Every CTO Should Know](https://eluminoustechnologies.com/blog/github-repositories/)
-- [15 Most Popular GitHub Repos for Developers in 2026 — Hostinger](https://www.hostinger.com/tutorials/most-popular-github-repos)
-- [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
+- [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline)
 - [VoltAgent/awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers)
