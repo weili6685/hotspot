@@ -3,183 +3,149 @@
 
 ## 🌊 今日大势
 
-**Code with Claude 大会余波持续发酵**：5/19-5/20 伦敦大会推出 Managed Agents 的 dreaming/self-hosted sandboxes/MCP tunnels + 10 个金融 agent 模板 + Cybersecurity 公测，Anthropic 正在把"企业级 agent 基建"这条路压实。**GitHub Trending 头部已被 Claude Code 元工具占领**：Karpathy skills（+2.5k）、codegraph 本地代码知识图谱（+3.0k）、官方 plugins 目录（+1.2k）、free-claude-code（+553）同框，meta-tooling 取代单一 agent 成为新战场。**竞品端 Cognition × Windsurf 整合落地**：SWE-1.5（号称比 Sonnet 4.5 快 13x）+ Codemaps 上线，Teams 涨到 $40/月对标 Cursor Business，AI IDE 价格战进入下半场。
+**Claude Code 生态今日全面爆发**：官方 plugin 目录 + knowledge-work-plugins + 第三方 codegraph / understand-anything 当日单日新增 star 同步破千，"代码知识图谱 + Plugin Marketplace" 已成为生态主轴。**Cognition 完成 Windsurf 收购**并发布自研 SWE-1.5（号称比 Sonnet 4.5 快 13x），把 Claude / Codex / Cursor / Windsurf 推入"自有模型 + 自有 IDE"四足赛跑。**Karpathy 行为准则突破 152k star**（+2.5k/天），说明圈内对"如何让 LLM 不犯低级错误"的焦虑正在被规则化沉淀。
 
-## ⭐ Claude 官方信号（最近 7 天 claude.com/blog）
+## ⭐ Claude 官方信号（最近 14 天 claude.com/blog）
 
 | 标题 | 日期 | 分类 | 为什么重要 |
 |---|---|---|---|
-| New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels | 5/19 | Product ⭐⭐ | 企业可在自己 VPC 内跑 agent，MCP 走加密 tunnel — 解决合规客户最大顾虑，杭州团队后端架构可参考 |
-| Using Claude Code: The unreasonable effectiveness of HTML | 5/20 | Claude Code ⭐ | 官方背书 HTML mockup 工作流，与 SnapStamp 的 ae-ui-mockup 路径完全一致 |
-| Agent view in Claude Code | 5/11 | Product | Claude Code 内可视化 agent 行为，调试 multi-step 任务更直观 |
-| Best practices for computer and browser use with Claude | 5/13 | Agents | computer use / browser use 优化指南 — ae-mobile-agent 类项目必读 |
-| Claude now works with more security and compliance tools | 5/21 | Enterprise | 扩展安全合规集成，影响企业采购决策 |
-| How our partners are putting Opus to work for cybersecurity | 5/21 | Enterprise | Opus 在威胁检测、漏洞 triage 的实战案例 |
-| How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book | 5/20 | Enterprise | Claude Cowork 大规模销售运营案例 |
-| How Anthropic's finance team uses Claude to shape the narrative behind the numbers | 5/22 | Enterprise | 财务团队内部使用模式 |
-
-**额外重磅（来自 Code with Claude 大会发布，非 blog 但今日仍在发酵）**：
-- **Claude Code Dreaming**：Claude Code 在执行任务时给自己写笔记，dreaming 系统离线读完所有笔记、抽取模式 — 越用越懂你的 codebase
-- **Claude for Small Business**：Intuit Quickbooks / PayPal / HubSpot / Canva / Docusign / Google Workspace / Microsoft 365 连接器一键接入
-- **KPMG 全球联盟**：276,000+ 员工全员开通 Claude — 历史最大单笔企业部署
-- **/radio + Claude FM**：lo-fi 编程电台
+| How Anthropic's finance team uses Claude to shape the narrative behind the numbers | 2026-05-22 | Enterprise AI | 内部财务团队真实用例，可借鉴 Claude 在数据叙事的玩法 |
+| Claude now works with more security and compliance tools | 2026-05-21 | Enterprise AI | 企业部署门槛进一步降低 |
+| How our partners are putting Opus to work for cybersecurity | 2026-05-21 | Enterprise AI | Opus 4.7 在安全场景的真实案例 |
+| Using Claude Code: The unreasonable effectiveness of HTML | 2026-05-20 | Claude Code ⭐ | "HTML-first" 思路；对前端/原型/快速 mock 有直接启发 |
+| New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels | 2026-05-19 | Product 📌 | Managed Agents 走向私有化部署，企业级 agent 基础设施成型 |
+| Deploying Claude across the legal industry | 2026-05-15 | Enterprise AI | 法律行业垂直方案 |
+| The founder's playbook: Building an AI-native startup | 2026-05-14 | Claude Code | 给 AI-native 创业者的操作手册 |
+| How Claude Code works in large codebases | 2026-05-14 | Enterprise AI ⭐ | 大代码库最佳实践，直接对接日常工作 |
+| Best practices for computer and browser use with Claude | 2026-05-13 | Agents | Computer Use 调优指南 |
+| Code w/ Claude SF 2026 recap | 2026-05-12 | Product | 大会回顾，含路线图信号 |
+| How Anthropic's cybersecurity team built a threat detection platform with Claude Code | 2026-05-12 | Claude Code | 内部 dogfood 案例 |
+| Agent view in Claude Code | 2026-05-11 | Product 📌 | 一屏看清所有 agent session，多 worktree 工作流核心 |
 
 ## 📌 今日推荐阅读（基于 iOS / SwiftUI / vibe coding 视角）
 
-1. **["Using Claude Code: The unreasonable effectiveness of HTML"](https://claude.com/blog) (5/20)** — 官方文章佐证你已在用的 mockup-first 路径，可对照 ae-ui-mockup skill 看是否还有可优化点
-2. **[colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) (+3,003 ⭐)** — 预索引代码知识图谱、本地运行、100% 减少 Claude Code 重复读文件的 token 消耗。SnapStamp 这种 Sources/Features/Core 多层结构最受益，可大幅降低 xcodebuild + 文件搜索的 tool call 开销
-3. **["New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels"](https://claude.com/blog) (5/19)** — 杭州后端（snapstamp-app-service / snapstamp-purchase-service）如果未来要在 BytesCell 内跑 agent，self-hosted sandbox + MCP tunnel 的模式可直接借鉴
+1. **manaflow-ai/cmux** — Ghostty 内核的 macOS 终端，为 AI agent 设计的垂直 tabs + 通知。**Swift 写的**，跟 SnapStamp + 多 worktree 并行 Claude Code 工作流强相关，可考虑取代 iTerm。
+2. **colbymchenry/codegraph** — 100% 本地、为 Claude Code/Codex/Cursor 预建的代码知识图谱（+3,003⭐/天）。SnapStamp 代码量已经不小，本地建图后可显著降低 Claude 探索成本。
+3. **Using Claude Code: The unreasonable effectiveness of HTML**（claude.com/blog 2026-05-20） — HTML-first 的快速 mockup 思路，对接你正在做的 `ae-ui-mockup` 流程。
 
-## 📈 当日 GitHub 爆发项目（主题相关，新增 star ≥ 100）
+## 📈 当日 GitHub 爆发项目（主题相关，新增 star ≥ 1000）
 
 | 项目名 | 简介 | 当日新增 | 总 star | 信号 |
 |---|---|---|---|---|
-| [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) | 把任意代码转成可探索可问答的交互式知识图谱 | +3,999 | 25,863 | 📈📌 |
-| [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) | 本地预索引代码知识图，Claude Code 专用降 token 神器 | +3,003 | 21,998 | 📈📌 |
-| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | Karpathy 总结的 CLAUDE.md，改善 Claude Code 行为 | +2,551 | 152,089 | 📈⭐ |
-| [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | "Learn it. Build it. Ship it." AI 工程从零教程 | +1,853 | 16,005 | 📈 |
-| [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Anthropic 官方维护的高质量 Claude Code 插件目录 | +1,173 | 27,243 | ⭐📈 |
-| [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 754 个结构化 Cybersecurity skill，映射 5 大框架 | +930 | 8,341 | ⭐ |
-| [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) | Ghostty-based macOS 终端，纵向分页 + 通知专为 AI agent 设计 | +696 | 19,020 | 📌 |
-| [multica-ai/multica](https://github.com/multica-ai/multica) | 开源 managed agents 平台，把 coding agent 变成真队友 | +585 | 32,491 | ⭐ |
-| [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | 终端 / VSCode / Discord 免费用 claude-code（注意合规风险） | +553 | 29,162 | ⚠️ |
-| [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) | Claude Cowork 知识工作者插件开源仓 | +550 | 14,059 | ⭐ |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | AI agent 工具包：CLI + 统一 LLM API + TUI/Web UI + Slack bot | +456 | 53,931 | 📌 |
-| [dotnet/skills](https://github.com/dotnet/skills) | 微软官方为 .NET/C# AI agent 写的 skills | +183 | 2,965 | ⭐ |
+| **Lum1104/Understand-Anything** | 代码 → 可交互知识图谱，可搜索可问答 | +3,999 | 26,034 | 📈⭐ |
+| **colbymchenry/codegraph** | 给 Claude Code/Codex/Cursor 的本地预建代码图谱 | +3,003 | 22,094 | 📈⭐ |
+| **multica-ai/andrej-karpathy-skills** | 一个 CLAUDE.md 减少 LLM 编码陷阱 | +2,551 | 152,161 | 📈⭐ |
+| **rohitg00/ai-engineering-from-scratch** | AI 工程从零学：构建并交付 | +1,853 | 16,075 | 📈 |
+| **anthropics/claude-plugins-official** | Claude Code 官方插件目录 | +1,173 | 27,262 | ⭐ |
 
-### 其他爆发项目（非主题）
-- [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) (+106 ⭐ / 25.8k): 金融市场语言基础模型
-- [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) (+181 ⭐ / 32.8k): IP 摄像头本地实时目标检测 NVR
-- [666ghj/MiroFish](https://github.com/666ghj/MiroFish) (+197 ⭐ / 62.1k): 通用群体智能引擎
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) (+550 ⭐ / 504k): 从零造你最爱的技术
-- [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) (+83 ⭐ / 33k): IM 平台 × LLM 的 agent 框架
+### 其他爆发项目（非主题，1 行带过）
+- **codecrafters-io/build-your-own-x** (+550): 经典老库，今天再次上榜
+- **blakeblackshear/frigate** (+181): 本地实时对象检测的 NVR
+- **666ghj/MiroFish** (+197): 群体智能引擎做结果预测
+- **shiyu-coder/Kronos** (+106): 金融市场语言基础模型
+- **iDvel/rime-ice** / **521xueweihan/GitHub520** / **krahets/hello-algo**: 中文榜常驻基建/算法/工具类
 
 ## GitHub 热门项目 — Agent 驱动 UI/UX 设计
 
 | 项目名 | 简介 | 亮点 |
 |---|---|---|
-| [Emergent](https://emergent.sh/) | 全栈 AI-native 平台，多 agent 架构 | 多个专用 agent 协作处理间距、网格、视觉层级 |
-| [Google Stitch](https://stitch.withgoogle.com/) | 文字/图片/手绘/语音 → 高保真 UI | 2026/3 重启，无限画布 + context-aware design agent，概念到可点击原型一条龙 |
-| [UX Pilot](https://uxpilot.ai/) | 预测式 heatmap + Design Review Bot | 自动捕捉无障碍问题和布局不一致 |
-| [Motiff](https://motiff.com/) | AI UI 生成器 | Figma 替代路径 |
+| **nexu-io/open-design** | 本地优先的 Claude Design 开源替代 | 19 skills + 71 brand 设计系统，跨 CLI 通吃（Claude Code/Codex/Cursor/Gemini） |
+| **barbarosselimbuyukelci/mobile-ai-ui-ux-revamp-skill** | 移动端 UI/UX 改造 skill | **直接对 mobile**，含 codebase intent 推断 + CI 验证 |
+| **ag-ui-protocol/ag-ui** | Agent-User Interaction Protocol | 标准化 agent 接入前端的事件协议 |
+| **VoltAgent/awesome-design-md** | DESIGN.md 集合 | drop-in 即可让 coding agent 生成对应风格 UI |
+| **veluthoor/ui-ux-design-review-agent** | Gemini 2.0 驱动的 UI 审美 review | 适合"AI 生成 UI 但丑"的修补场景 |
 
 ## GitHub 热门项目 — 自动化测试 / AI Test Gen
 
 | 项目名 | 简介 | 亮点 |
 |---|---|---|
-| [Shiplight AI](https://www.shiplight.ai/) | spec-driven test gen + self-healing + PR-time CI gates | 2026 默认操作模型 |
-| [Cekura](https://www.cekura.ai/) | AI chat agent 测试平台 | 自动 QA + 评估 |
-| [Testomat](https://testomat.io/) | 自治测试工具链 | LLM 解读失败日志、自动维护测试用例 |
-| [Confident AI](https://www.confident-ai.com/) | LLM 测试方法学 | 行业头部参考资料 |
-| [Virtuoso QA](https://www.virtuosoqa.com/) | Generative AI 测试工具 Top 11 评测 | 工具选型参考 |
+| **confident-ai/deepeval** | LLM 评估框架 | 主流 LLM eval 基建，可生成数据集 + eval 套件 |
+| **Kumari-Pragati/Intelligent-Test-Automation** | 多 agent LLM 测试用例生成 | AutoGen + unittest，从需求自动产用例 |
+| **aws-samples/genai-test-automation** | Claude 3 Sonnet 驱动的浏览器自动化测试 | 看 HTML + 行动历史决定下一步 |
+| **furudo-erika/ai-testing-agent** | API 测试 agent | 自然语言反馈迭代生成测试 |
+| **herchila/unittest-ai-agent** | 单测自动生成 | GPT-4o 生成高质量 unit tests |
 
 ## GitHub 热门项目 — 视频剪辑自动化
 
 | 项目名 | 简介 | 亮点 |
 |---|---|---|
-| [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) | 自然语言交互式视频剪辑 agent | 新增 AI Transition Generation + ASR rough cut 去口水词 |
-| [HKUDS/VideoAgent](https://github.com/HKUDS/VideoAgent) | All-in-One agentic 视频理解/编辑/重制 | 显式 + 隐式 sub-intent 分解 |
-| [HKUDS/ViMax](https://github.com/HKUDS/ViMax) | Director / Screenwriter / Producer / Generator 四合一 | 自动化从剧本到成片 |
-| [aregrid/frame](https://github.com/aregrid/frame) | 开源 "vibe video editor"，Cursor-like 交互 | Pro 剪辑替代品 |
-| [poseljacob/agentic-video-editor](https://github.com/poseljacob/agentic-video-editor) | Gemini + FFmpeg agent 群把素材 + brief 转广告 | scene detection + 镜头选择 + 组装 + 质检 |
-| [video-db/Director](https://github.com/video-db/Director) | 多 agent 视频工作流框架 | 汇总/剪辑/搜索一站式 |
+| **FireRedTeam/FireRed-OpenStoryline** | 意图驱动的视频剪辑 agent | 4 月新增 AI Transition Generation |
+| **HKUDS/VideoAgent** | 视频理解 + 编辑 + 二创 All-in-One | 显式 + 隐式 sub-intent 分解 |
+| **HKUDS/ViMax** | Director/Screenwriter/Producer 一体的视频生成 agent | 团队多角色编排 |
+| **aregrid/frame** | 开源 vibe video editor | Cursor 式交互、自动剪辑 |
+| **video-db/Director** | 视频 agent 框架 | 实时进度反馈 |
+| **poseljacob/agentic-video-editor** | 创意 brief → 成片 | Gemini + FFmpeg 组合 |
 
 ## ⚠️ 用户痛点 / 负面信号
 
-- **HN 顶帖**："The only people I've heard saying that generated code is fine are those who don't read it"（生成代码 OK 的都是没在读代码的人）— pron 评论，回复破千
-- **Agent 疲劳症**：3 小时密集 agentic coding 后认知耗竭，与传统 deep coding 体验明显不同 — 多个开发者反馈
-- **Claude Code 源码 npm 泄漏事件**（2026/4）：Anthropic 已确认，npm packaging 错误导致私有源码外泄，至今仍在 HN 余波
-- **Windsurf 涨价**：Cognition 收购后 Pro $15→$20，Teams $30→$40，部分用户出逃
-- **安全研究警告**：AI 工具产出代码可能更易被攻击，secure vibe coding 成为 Medium 长文热点
+- **HN 共识转移**："generated code is fine 只有不读代码的人会这么说"。AI 生成代码的安全性、长上下文遗忘原设计意图、迭代后回退到原始思路是当前最大痛点（HN #46771564, #47467922）。
+- **Claude Code 源码 npm 包泄露事件**（4 月，Anthropic 已确认）—— 影响余波仍在 HN 发酵，社区开始讨论"什么样的工程文化能写出这样的代码"。
+- **价格不稳定**：Windsurf 半年内三次调价（$15 → $30 → $40 团队版 / Pro $15→$20）；Cursor / Kiro 也都改了 credit/quota 模型。开发者疲于追平台。
 
 ## 论坛热门帖子（正向）
 
-- **MIT Technology Review**：["Anthropic's Code with Claude showed off coding's future—whether you like it or not"](https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/) — 5/21
-- **InfoQ**：["Code with Claude Announces Managed Agents, Proactive Workflows, Capability Curve"](https://www.infoq.com/news/2026/05/code-with-claude/)
-- **HN 讨论**：["A few random notes from Claude coding quite a bit last few weeks"](https://news.ycombinator.com/item?id=46771564) — 实战经验帖
-- **HN 讨论**：["Claude Code and the Great Productivity Panic of 2026"](https://news.ycombinator.com/item?id=47467922) — 行业焦虑深度反思
-- **行业评论**：["The conversation has matured"](https://www.developersdigest.tech/blog/what-hacker-news-gets-right-about-ai-coding-agents-2026) — 从"AI 是不是真的"转向"如何让它经济上有用、运营上可靠、结构上可复制"
+- **HN**：A few random notes from Claude coding quite a bit last few weeks（#46771564）—— 长期重度用户的真实使用心得。
+- **HN**：Claude Code and the Great Productivity Panic of 2026（#47467922）—— 业内"AI 替代论 vs 增强论"的代表辩论。
+- **Medium**：Secure Vibe Coding in 2026: Files, Prompts and Rules —— 把 vibe coding 安全化的文件 + 提示词组合手册。
+- **MIT Technology Review**：Anthropic's Code with Claude showed off coding's future—whether you like it or not（2026-05-21）—— 大会回顾权威报道。
 
 ## 科技公司最新动态
 
 **Anthropic**
-- 5/19-5/20 Code with Claude 伦敦大会
-- 5/21 KPMG 全球联盟：276,000+ 员工接入 Claude
-- 5/21 PwC 战略联盟扩展
-- 5/19 Managed Agents：dreaming + 自托管 sandbox + MCP tunnel + 多 agent 编排 + outcomes + webhooks
-- 5/19 Claude for Small Business 上线
-- 5/19 金融服务 10 个 ready-to-run agent 模板（pitchbook / KYC / 月结）
+- 2026-05-22 Finance 团队 dogfood 案例公开
+- 2026-05-21 安全/合规工具集成扩展 + Opus 4.7 在 cybersecurity 案例
+- 2026-05-19 Managed Agents 新增 self-hosted sandboxes + MCP tunnels（企业级关键）
+- 2026-05-12 Code w/ Claude SF 大会
+- Project Glasswing 扩展，Claude Security 公测中
 
-**Cognition (Windsurf 母公司)**
-- SWE-1.5 模型发布（自称比 Sonnet 4.5 快 13×）
-- Codemaps 功能上线（竞品未匹配）
-- Windsurf Teams $30 → $40/月，Pro $15 → $20/月（5 月生效）
-- Windsurf 2.0 集成 Devin
+**Cognition + Windsurf**
+- 5 个月前完成 $250M 收购，本月正式发布 **SWE-1.5**（自研模型，13x 快于 Sonnet 4.5）+ Codemaps 功能
+- Windsurf 2.0 with Devin 已上线
 
 **OpenAI**
-- 4/2 Codex-only pay-as-you-go 席位上线（ChatGPT Business / Enterprise）
-- Codex 持续与 Cursor 在新版本拉锯
-
-**Google**
-- Antigravity 2.0 + Gemini 3.5 Flash 发布（5/20 前后）
-- 新 $200 AI Ultra 订阅档
-- Stitch 设计工具 3 月重启
+- 2026-04-02 Codex 推出 pay-as-you-go 席位（仅 Codex），ChatGPT Business/Enterprise 可用
+- Codex 与 Cursor 在 SWE-Bench 上贴身肉搏
 
 **Cursor**
-- Composer 2.5 发布
-- 持续与 Claude Code / Antigravity 竞争
+- Composer 2.5 已发布
+- 价格策略追平 Windsurf
 
-**GitHub**
-- Copilot 6/1 转向 flex billing
-
-**Kiro**
-- 新 credit 计费模型
+**Google**
+- Antigravity 2.0 进入第一梯队，与 Claude Code / Codex / Cursor / Kiro / Copilot / Windsurf 并列七强
 
 ## 今日新数据点
 
-- **Claude Opus 4.7**：原生 1M context（取消 "1M context preview" 阶段，4 月底落地）
-- **Karpathy CLAUDE.md skills**：单仓 152k ⭐，单日 +2,551
-- **codegraph**：单日 +3,003 ⭐ → 验证"减少 token / 减少 tool call"是 Claude Code 用户当下最大刚需
-- **Gartner 预测**：2026 年底 40% 企业应用将集成任务 specific AI agent（vs 2025 < 5%）
-- **KPMG**：276,000+ 员工，史上最大企业级 Claude 部署
+- **Claude Opus 4.7**：SWE-Bench Verified **87.6%**（相比 4.6 提升 13 个百分点），3x 图像分辨率输入，价格不变。
+- **SWE-1.5 (Cognition)**：声称 **13x 快于 Claude Sonnet 4.5**（待第三方复测）。
+- **Karpathy-skills 单库**：152k star，今日 +2.5k，证明"reduce LLM mistakes"已成显学。
+- **Claude Code 插件生态**：官方目录 27k star，knowledge-work-plugins 14k star，加上第三方 codegraph 22k star —— 这三条线今天单日 star 合计 +4,700。
 
 ## 来源
 
-**Claude 官方 / Anthropic**
-- [claude.com/blog](https://claude.com/blog)
-- [Anthropic finance agents](https://www.anthropic.com/news/finance-agents)
-- [Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
-- [PwC partnership](https://www.anthropic.com/news/pwc-expanded-partnership)
-- [KPMG alliance](https://www.anthropic.com/news/anthropic-kpmg)
-
-**行业评论**
-- [MIT Technology Review: Code with Claude](https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/)
-- [InfoQ: Managed Agents announcement](https://www.infoq.com/news/2026/05/code-with-claude/)
-- [Releasebot Anthropic updates](https://releasebot.io/updates/anthropic)
-- [Claude Code Changelog](https://claudefa.st/blog/guide/changelog)
-- [Pasquale Pillitteri: May release notes summary](https://pasqualepillitteri.it/en/news/2223/claude-code-may-2026-release-notes-radio-plugin-marketplace)
-
-**HN / Reddit / 社区**
-- [HN: A few random notes from Claude coding](https://news.ycombinator.com/item?id=46771564)
-- [HN: The Great Productivity Panic of 2026](https://news.ycombinator.com/item?id=47467922)
-- [HN: The Claude Code Leak](https://news.ycombinator.com/item?id=47609294)
-- [HN: What Claude Code's Source Revealed](https://news.ycombinator.com/item?id=47772282)
-- [Secure Vibe Coding in 2026](https://snehbavarva.medium.com/secure-vibe-coding-in-2026-the-files-prompts-and-rules-of-use-and-research-e821021ee908)
-
-**竞品**
-- [Cognition × Windsurf SWE-1.5 + Codemaps](https://www.nxcode.io/resources/news/cognition-windsurf-acquisition-swe-1-5-codemaps-2026)
-- [AI Coding Agents 2026 对比](https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/)
-- [Cursor vs Claude Code vs Windsurf 2026](https://www.shareuhack.com/en/posts/cursor-vs-claude-code-vs-windsurf-2026)
+**Claude 官方**
+- [Claude Blog](https://claude.com/blog)
+- [Anthropic News](https://www.anthropic.com/news)
+- [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+- [Claude Code What's New](https://code.claude.com/docs/en/whats-new)
 
 **GitHub Trending**
-- [github.com/trending?since=daily](https://github.com/trending?since=daily)
-- [github.com/trending?since=daily&spoken_language_code=zh](https://github.com/trending?since=daily&spoken_language_code=zh)
+- [GitHub Trending Daily](https://github.com/trending?since=daily)
+- [GitHub Trending Daily (中文)](https://github.com/trending?since=daily&spoken_language_code=zh)
 
-**视频 / UI / Test 主题搜索**
-- [FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline)
-- [HKUDS/VideoAgent](https://github.com/HKUDS/VideoAgent)
-- [HKUDS/ViMax](https://github.com/HKUDS/ViMax)
-- [Agent UX 2026](https://fuselabcreative.com/ui-design-for-ai-agents/)
-- [UXmatters: Agentic AI in UX Design](https://www.uxmatters.com/mt/archives/2026/03/next-gen-agentic-ai-in-ux-design-evolving-the-double-diamond-process.php)
-- [Shiplight AI: Test Automation 2026](https://www.shiplight.ai/blog/ai-in-test-automation)
-- [Testomat: Autonomous Testing](https://testomat.io/blog/autonomous-testing/)
+**行业评测 / 大会**
+- [Anthropic's Code with Claude showed off coding's future (MIT Tech Review)](https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/)
+- [Inside Anthropic's 2026 Developer Conference (Every)](https://every.to/chain-of-thought/inside-anthropic-s-2026-developer-conference)
+- [Cognition's $250M Windsurf Acquisition (NxCode)](https://www.nxcode.io/resources/news/cognition-windsurf-acquisition-swe-1-5-codemaps-2026)
+- [AI Coding Agents 2026 比较 (Lushbinary)](https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/)
+
+**HN 讨论**
+- [HN #46771564 — A few random notes from Claude coding](https://news.ycombinator.com/item?id=46771564)
+- [HN #47467922 — Claude Code and the Great Productivity Panic](https://news.ycombinator.com/item?id=47467922)
+- [HN #47772282 — Claude Code Source Revealed](https://news.ycombinator.com/item?id=47772282)
+
+**GitHub 项目精选**
+- [Understand-Anything](https://github.com/Lum1104/Understand-Anything) · [codegraph](https://github.com/colbymchenry/codegraph) · [karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) · [cmux](https://github.com/manaflow-ai/cmux)
+- [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) · [knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) · [multica](https://github.com/multica-ai/multica)
+- [open-design](https://github.com/nexu-io/open-design) · [ag-ui](https://github.com/ag-ui-protocol/ag-ui) · [mobile-ai-ui-ux-revamp-skill](https://github.com/barbarosselimbuyukelci/mobile-ai-ui-ux-revamp-skill)
+- [FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) · [VideoAgent](https://github.com/HKUDS/VideoAgent) · [Director](https://github.com/video-db/Director)
+- [deepeval](https://github.com/confident-ai/deepeval) · [ai-testing-agent](https://github.com/furudo-erika/ai-testing-agent)
