@@ -1,172 +1,92 @@
-# AI 热点汇总 — Claude / Agent / Vibe-Coding
-> 日期：2026-05-28
+# AI 热点 · 2026-05-28
+> 你跟一个懂行朋友 20 分钟通话的笔记。
 
-## 🌊 今日大势
-今天的主线是**官方信号 + 生态密集承接**：Anthropic 在伦敦 Code w/ Claude 之后连发"用 Claude 守住源码安全"、"Zero Trust for AI Agents"、"CodeRabbit 用 Claude 搭 Agent 编排系统"三篇——把"Agent + 安全"作为下一个阶段的官方叙事钉死。GitHub 这边 `obra/superpowers`（agentic skills 框架）和 `anthropics/knowledge-work-plugins` 同日爆发，验证了 skills/plugin 生态正在从概念走向工程化。竞品侧 Cognition 用 SWE-1.5 + Windsurf $250M 收购形成 IDE 一体化反击，价格也从 $30 跟涨到 $40——AI coding tool 已进入"七强各占山头"的格局。
+## 🔥 本周一个 hot-take
 
-## ⭐ Claude 官方信号（最近 7 天 claude.com/blog）
-| 标题 | 日期 | 分类 | 为什么重要 |
-|------|------|------|-----------|
-| Using LLMs to Secure Source Code | 2026-05-27 | Enterprise AI | "Agent + 安全"主线的第一篇——把 Claude 定位成代码审计/漏洞检测的一线工具 |
-| How CodeRabbit Used Claude to Build an Agent Orchestration System | 2026-05-27 | Claude Code | 官方推荐的 Agent 编排范式案例，Builder 视角可参考其架构 |
-| Zero Trust for AI Agents | 2026-05-27 | Enterprise AI | Agent 权限/沙箱治理框架，呼应 Self-Hosted Sandboxes |
-| Code w/ Claude London 2026: Rethinking How We Build | 2026-05-26 | Product | 伦敦开发者大会精要总结，含 Agent View / /goal / /radio 等 |
-| How Anthropic's Finance Team Uses Claude to Shape the Narrative Behind Numbers | 2026-05-22 | Enterprise AI | 内部"叙事化财报"用例，验证 Claude 在非工程场景的渗透 |
-| Claude Now Works with More Security and Compliance Tools | 2026-05-21 | Enterprise AI | 28 个安全/合规集成上架，企业落地门槛大幅降低 |
-| How Our Partners Are Putting Opus to Work for Cybersecurity | 2026-05-21 | Enterprise AI | Opus 在威胁检测/响应的合作伙伴落地 |
-| Using Claude Code: The Unreasonable Effectiveness of HTML | 2026-05-20 | Claude Code | "用 HTML 当中间层做 vibe coding"——直接关联 ae-ui-mockup 思路 |
-| New in Claude Managed Agents: Self-Hosted Sandboxes and MCP Tunnels | 2026-05-19 | Product | Sandbox 可放本地，agent loop 留在 Anthropic——企业部署的关键拼图 |
+**主流叙事说 "AI coding tool 七强大战正酣"——Claude Code / Cursor / Windsurf / Codex / Antigravity / Kiro / Copilot 在 IDE 维度死磕价格、上下文、速度、自研模型。我不同意这个画面。**
 
-## 📌 今日推荐阅读（基于 iOS / SwiftUI / vibe coding 视角）
-1. **Using Claude Code: The Unreasonable Effectiveness of HTML** — 用 HTML 作 vibe coding 中间层，刚好对应 SnapStamp 现在用 mockup 网页门控原生改动的工作流；可以直接照搬其思路反哺 ae-ui-mockup。
-2. **How Claude Code Works in Large Codebases: Best Practices and Where to Start** — SnapStamp + 两个 backend service 已经构成中型 mono repo 雏形，这篇是 Claude Code 在大代码库中保持上下文/收敛改动的官方指南，对避免"全局改飞"很有针对性。
-3. **obra/superpowers (GitHub 1511⭐ 当日)** — agentic skills 框架，结构上和 AE Team 的 skill 体系高度同形；可对比学习对方的 task/checklist 模式，找出 ae-skill-creator 还没固化的最佳实践。
+实情是 Claude Code 已经悄悄离开 IDE 跑道。看一下 Anthropic 过去 9 周往里塞的功能（What's new 原文，每周一篇）：Auto mode（Week 13）→ computer use 进 CLI（Week 14）→ Ultraplan（Week 15）→ Monitor tool 流式背景事件（Week 15）→ Routines 定时跑 cloud agent（Week 16）→ `/ultrareview` 云端 bug 猎手（Week 17）→ `/team-onboarding` 把配置打包成可重放指南 → background sessions + `/goal` 跨 turn 持续工作 → Agent View 一屏看所有 session 状态。
 
-## 📈 当日 GitHub 爆发项目（主题相关，新增 star ≥ 1000）
-| 项目名 | 简介 | 当日新增 | 总 star | 信号 |
-|--------|------|---------|--------|------|
-| Lum1104/Understand-Anything | 交互式代码探索/知识图谱工具 | +4,465 | 39,825 | 📈📌 |
-| Leonxlnx/taste-skill | 让 AI 不再生成"无味/通用 slop"的 skill | +2,715 | 24,257 | 📈⭐ |
-| affaan-m/ECC | Agent harness 性能优化系统 | +2,062 | 196,027 | 📈 |
-| harry0703/MoneyPrinterTurbo | 一键 AI 生成短视频（LLM 编排） | +1,742 | 62,028 | 📈（视频自动化主题，见下方专区） |
-| obra/superpowers | Agentic skills 框架（与 AE skills 同构） | +1,511 | 209,538 | ⭐📌 |
-| anthropics/knowledge-work-plugins | Anthropic 官方知识工作者插件集 | +695 | 17,273 | ⭐（Anthropic 出品，必看） |
-| mukul975/Anthropic-Cybersecurity-Skills | 754 个结构化网安 skill（呼应官方安全主线） | +886 | 10,963 | ⭐ |
-| hardikpandya/stop-slop | 去除 AI 文体 tell 的工具 | +664 | 5,700 | ⚠️（与 taste-skill 同主题，"AI 味"成为痛点信号） |
+这些不是 "IDE 增强功能"——这是**给你整台机器装一层 agent 控制平面**。Cursor 在比 Composer 推理速度，Windsurf 在比 SWE-1.5 跑得多快，Antigravity 在比 Gemini 3.5 Flash 多便宜——但 Claude Code 已经在比"我能不能后台跑 4 小时、给你整 6 个 PR 出来、自己上 CI"。**这不是同一场比赛**。
 
-### 其他爆发项目（非主题）
-- DigitalPlatDev/FreeDomain (+2,222 ⭐): 免费域名分发服务
-- byoungd/English-level-up-tips (+1,163 ⭐): 高级英语学习指南
+我押 6 个月后回看，"七强对比"这类文章会显得很傻——就像 2008 年还在比黑莓和诺基亚的物理键盘。真正的格局会是：Claude Code 当 agent OS，剩下几家继续做 IDE，价格往下卷。这个押注可能错——错的方式是 Anthropic 自己把功能砸太多导致质量崩盘（5/27 v2.1.152 已经在打 startup hang 75 秒的回归 bug，是个早期信号）。但我愿意押。
 
-## GitHub 热门项目 — Agent 驱动 UI/UX 设计
-| 项目名 | 简介 | 亮点 |
-|--------|------|------|
-| nexu-io/open-design | Local-first, 开源版 Claude Design 替代 | 19 个 Skills + 71 个品牌级设计系统，支持 web/desktop/mobile 原型 + 多端导出，已支持 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot |
-| barbarosselimbuyukelci/mobile-ai-ui-ux-revamp-skill | 移动端 UI/UX 重做 skill | 自动 codebase 意图推断 + design-system 映射 + CI 验证，与 ae-ui-mockup 思路一致 |
-| nextlevelbuilder/ui-ux-pro-max-skill | 跨平台专业 UI/UX 设计 skill | Design System Generator 旗舰功能，自动生成定制设计系统 |
-| veluthoor/ui-ux-design-review-agent | 用 Gemini 2.0 复盘 AI 生成的 UI | 给 color palette / 组件重做 / 可访问性建议 |
-| ag-ui-protocol/ag-ui | Agent-User Interaction Protocol | 开放、事件驱动的 agent ↔ UI 标准化协议 |
-| VoltAgent/awesome-design-md | 一组 DESIGN.md 设计系统说明 | 丢进项目里让 coding agent 生成匹配 UI |
+---
 
-## GitHub 热门项目 — 自动化测试 / AI Test Gen
-| 项目名 | 简介 | 亮点 |
-|--------|------|------|
-| confident-ai/deepeval | LLM 评估框架 | 让 coding agent 生成数据集/写评估套件/跑测试/对失败 metric 自迭代 |
-| herchila/unittest-ai-agent | 自动单测生成 | 把代码上下文丢给 GPT-4o 生成高质量单测，自动适配项目结构 |
-| LLM-Testing/LLM4SoftwareTesting | 综述仓库 | 系统整理 LLM 在测试输入/oracle/单测生成上的应用 |
-| aws-samples/genai-test-automation | 远程驱动浏览器跑端到端测试 | 用 Claude 3 Sonnet 做导航/动作选择 |
-| mindfiredigital/AUTOTEST | 自动生成 Selenium 测试脚本 | 动态分析 Web 页面后产出测试用例 |
-| ksm26/Automated-Testing-for-LLMOps | CI 内嵌 LLM 测试 | 把 LLM 测试纳入持续集成流 |
+## ✅ 3 件真信号
 
-## GitHub 热门项目 — 视频剪辑自动化
-| 项目名 | 简介 | 亮点 |
-|--------|------|------|
-| FireRedTeam/FireRed-OpenStoryline | 自然语言驱动的 AI 视频剪辑 agent | 4 月 2 日新增 AI Transition Generation；3 月 22 日新增基于 ASR 的口语视频粗剪（去口头禅/重复句） |
-| HKUDS/VideoAgent | 全栈 agentic 视频理解/编辑/重制 | 把指令拆为显式/隐式 sub-intent + 图结构 workflow + 反馈环 |
-| HKUDS/ViMax | 一体化 agentic 视频生成 | 导演/编剧/制片/生成 全角色 agent |
-| aregrid/frame | 开源 "vibe video editor" | Cursor-like 交互，内置 video agent 做规划与组织 |
-| poseljacob/agentic-video-editor | 命令行版 AI 剪辑 | 多 agent 集合处理场景检测/选镜/拼装/复核（Gemini + FFmpeg） |
-| mazsola2k/ai-video-editor | 视觉 LLM 驱动的剪辑流水线 | 用 VLM + CV + 场景分类自动判断保留/丢弃，输出含转场/速度变化的成品时间线 |
+### 1. Mythos 1 公开预览即将通过 Claude Code 释放
 
-## ⚠️ 用户痛点 / 负面信号
-- **"AI tell" 成为热议焦点**：`stop-slop` + `taste-skill` 同日双爆发（合计 +3379⭐），说明用户对 AI 生成内容"模板感/味道"的抱怨已经形成市场需求。
-- **Hacker News：生产力恐慌仍未消退**——开发者抱怨 AI 写得快但留下大量"得人工 review 的额外代码"，"管理层追 KPI、工程师承担 review 成本"的张力依然存在（item 47467922）。
-- **Claude Code 源码 npm 包错配事件后续**：4 月那次源码泄漏在 5 月仍是讨论焦点之一（thehackernews 2026-04），AI 工程文化与发布纪律被持续审视。
-- **Antigravity 重度用户限流**：5 月 19 日 reset 后限额收紧，Google AI Ultra 起步价 $99.99/月作为"贵价逃生通道"出现——多账号代价上升。
-- **Windsurf Teams 涨价**：$30 → $40/user/月，与 Cursor 持平；Cognition 收购后明显走"统一定价/抹平差异"路线。
+[cybersecuritynews](https://cybersecuritynews.com/claude-mythos-moves-toward-public/) 报道：`claude-mythos-1-preview` 准备通过 Claude Code 和 Claude Security 发布，**在 Claude.com 短暂可见过**——属于 controlled rollout 信号。这跟过去几周 Anthropic 三连发"Using LLMs to Secure Source Code / Zero Trust for AI Agents / CodeRabbit Agent Orchestration"（5/27 同日三篇 [Anthropic blog](https://www.anthropic.com/news)）形成闭环：**Mythos 主打的不是通用对话，是『让 agent 在企业网安场景里跑』**。
 
-## 论坛热门帖子（正向）
-- **Hacker News**
-  - "A few random notes from Claude coding quite a bit last few weeks" (item 46771564)：长尾用户经验沉淀，关注 KAIROS（后台持续 agent）和 dream mode 的实战体感。
-  - "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs" (item 48289950)：把 CLAUDE.md / Skills / Subagents / Plugins / MCP 五件套作为 Claude Code 日常工作流的事实标准做总结。
-  - "What Claude Code's Source Revealed About AI Engineering Culture" (item 47772282)：从泄露的源码反推 Anthropic 内部工程文化与 Agent 设计哲学。
-- **行业评测**
-  - MIT Technology Review (2026-05-21)："Anthropic's Code with Claude showed off coding's future—whether you like it or not"：从外部视角看 Claude 重塑软件开发的不可逆性。
-  - NxCode：Cognition × Windsurf 收购 + SWE-1.5 + Codemaps 深度复盘。
+跟 30 天前比看变化：4/28 报告里 Mythos 第一次出现是因为它"发现了主流系统大量零日漏洞"——当时是 lab 模式。现在已经走到 "preview release via Claude Code"——这是 Anthropic 把模型分层投放的策略，Opus 4.7 做通用，Mythos 走垂直场景。
 
-## 科技公司最新动态
-**Anthropic**
-- 2026-05-27 三连发：Using LLMs to Secure Source Code / CodeRabbit Agent Orchestration / Zero Trust for AI Agents——确认"Agent + 安全"为下阶段官方叙事。
-- 2026-05-26 伦敦 Code w/ Claude 大会精要发布。
-- 2026-05-21 Claude 安全/合规集成扩展到 28 个（helpnetsecurity 同步报道）；同日宣布 Project Glasswing × Claude Security 公测、网络验证工具开放给合规安全团队。
-- 2026-05-19 Managed Agents 新增 Self-Hosted Sandboxes（公测）+ MCP Tunnels：sensitive 文件/包/服务留客户侧，agent loop 留 Anthropic 侧。
-- Opus 4.7（4 月末发布）原生 1M context 已成 Fast Mode 默认。
+**你该改变什么？** 如果你的 SnapStamp 后端（snapstamp-app-service / snapstamp-purchase-service）有任何敏感面（用户数据、支付链路），未来 1-2 个月可以等 Mythos 走出 preview 再决定要不要跑一次安全审计。**不需要现在做**。
 
-**OpenAI / Codex**
-- 4 月 2 日推出 ChatGPT Business/Enterprise 的 Codex-only pay-as-you-go 席位——费用从固定变可变。
-- Codex changelog 持续更新中（developers.openai.com/codex/changelog）。
+### 2. "反 AI 味" 成为独立赛道
 
-**Cognition × Windsurf**
-- 2026-05 完成 $250M 收购，发布自研 SWE-1.5（号称比 Claude Sonnet 4.5 快 13×，与 Fast Context 检索系统协同训练）+ Codemaps。
-- Windsurf Teams 涨价：$30 → $40/user/月。
+5/28 一天，`Leonxlnx/taste-skill`（+2,715⭐，总 24k）和 `hardikpandya/stop-slop`（+664⭐，总 5.7k）双爆发，单日合计 +3,379⭐。它们做的是同一件事：**让 LLM 输出不要那么"AI 味"**——避免那种"As an AI language model" / 过度礼貌 / 模板化 bullet point / 永远在结尾总结的腔调。
 
-**Google / Antigravity**
-- 5 月 19 日限额 reset；Google AI Ultra 推出 $99.99/月（Pro Antigravity 限额 5×）作为重度用户的"逃生价位"。
-- Antigravity 2.0 加入七强格局（Lushbinary 对比）。
+这个赛道 30 天前不存在。4/28 报告里完全没有"AI 味去除"主题，那时候社区还在追 Karpathy CLAUDE.md（减少 LLM 编码错误，140k⭐）。一个月时间，**话题从"AI 写代码烂"转到"AI 写文字烂"**——前者是工程问题，后者是语用问题。
 
-**PwC**
-- 与 Anthropic 扩大合作，部署 Claude 构建技术与执行工作流。
+为什么是真信号：两个独立项目同日双爆发，不是营销推力，是用户痛点已经积压到某个临界点。Karpathy CLAUDE.md 当时是这个模式（一个文件减少 4 类编码问题，民间共识压不住），现在轮到文字侧。**[The Pragmatic Engineer 2 月调查](https://www.pragmaticengineer.com/)** 显示 46% 工程师把 Claude Code 列为"最爱"，但**这不代表他们爱 Claude 输出的中文/英文文体**。
 
-## 今日新数据点
-- **GitHub 当日爆发量**：单日 ≥1000⭐ 项目共 7 个，其中 5 个直接命中 AI/Agent 主题（占比 71%），"AI 味去除"主题独占 2 席。
-- **`obra/superpowers` 累计 209,538⭐**：作为开源 agentic skills 框架的事实标杆。
-- **Claude Code 七强格局**：Claude Code / Antigravity 2.0 / Codex / Cursor / Kiro / GitHub Copilot / Windsurf — 价格区间已从免费到 $99.99/月分层。
-- **Anthropic 安全集成**：从 0 → 28 个安全/合规工具一次性上架。
-- **SWE-1.5 性能宣称**：13× Claude Sonnet 4.5——速度战争被 Cognition 正面拉开。
+**你该改变什么？** 你写 SwiftUI、写 hotspot 报告（就这一份）、写 wiki——所有地方都受 AI 味污染。可以下载 taste-skill 装一下试试看，输出会不会更像"人写的"。**这是今天唯一一个值得你 30 分钟实验的项目**。
 
-## 来源
-**Anthropic / Claude 官方**
-- [Claude Blog](https://claude.com/blog)
-- [What's new — Claude Code Docs](https://code.claude.com/docs/en/whats-new)
-- [Anthropic News](https://www.anthropic.com/news)
-- [Claude for Small Business](https://www.anthropic.com/news/claude-for-small-business)
-- [PwC × Anthropic expanded partnership](https://www.anthropic.com/news/pwc-expanded-partnership)
+### 3. Claude Code 进入"OS 阶段"——具体证据
 
-**Release 监控 / 第三方汇编**
-- [Releasebot — Anthropic / May 2026](https://releasebot.io/updates/anthropic)
-- [Releasebot — Claude Code / May 2026](https://releasebot.io/updates/anthropic/claude-code)
-- [claudefa.st changelog 2026](https://claudefa.st/blog/guide/changelog)
-- [Claude Code May 2026 Release Notes (Pasquale Pillitteri)](https://pasqualepillitteri.it/en/news/2223/claude-code-may-2026-release-notes-radio-plugin-marketplace)
-- [Anthropic Claude News — May 2026 (mean.ceo)](https://blog.mean.ceo/anthropic-claude-news-may-2026/)
+5 月 11–15 的 Week 20 更新（[官方原文](https://code.claude.com/docs/en/whats-new)）一次性塞了：`claude agents` 单屏看所有 session、`/goal` 跨 turn 持续工作、fast mode 默认 Opus 4.7、Rewind 菜单 "Summarize up to here" 压缩 context。Week 19 加了 plugin from `.zip`/URL、auto mode 硬拒规则、hooks 看到 `effort.level`。Week 17 推 `/ultrareview` 云端 bug 猎手。
 
-**行业评测**
-- [MIT Tech Review — Code with Claude](https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/)
-- [HelpNetSecurity — 28 security/compliance integrations](https://www.helpnetsecurity.com/2026/05/25/anthropic-security-compliance-integrations-claude/)
-- [NxCode — Cognition × Windsurf](https://www.nxcode.io/resources/news/cognition-windsurf-acquisition-swe-1-5-codemaps-2026)
-- [Lushbinary — AI Coding Agents 2026 七强对比](https://lushbinary.com/blog/ai-coding-agents-comparison-cursor-windsurf-claude-copilot-kiro-2026/)
-- [ComputeLeap — Claude Code 完全指南 2026](https://www.computeleap.com/blog/claude-code-complete-guide-2026/)
+跟 5/21 报告对比：那天列的是 "Code with Claude 大会发布 agent infrastructure 而非新模型"——当时还是大会预告口吻。一周过去，**这些功能已经落到 v2.1.140+ 实际版本里能用了**。从 announcement 到 shipping 的速度让人不舒服——好的不舒服。
 
-**Hacker News**
-- [HN 46771564 — Random notes from Claude coding](https://news.ycombinator.com/item?id=46771564)
-- [HN 48289950 — Claude Code as a Daily Driver](https://news.ycombinator.com/item?id=48289950)
-- [HN 47467922 — Productivity Panic of 2026](https://news.ycombinator.com/item?id=47467922)
-- [HN 47772282 — What Claude Code's Source Revealed](https://news.ycombinator.com/item?id=47772282)
+**你该改变什么？** 你的 worktree + subagent + ae-issue-orchestrate 工作流，**可以试试用 `/goal` 替代手动 task 编排**——给 Claude 一个完成条件，让它自己跑直到达标。这跟你的 superpowers:executing-plans 模式互补。**今晚就可以试一次**：挑一个 SnapStamp 里小的 IJP* fix，用 `/goal "fix X and verify build passes"` 看看 Claude 跑几轮收敛。
 
-**GitHub Trending**
-- [github.com/trending — daily](https://github.com/trending?since=daily)
-- [github.com/trending — daily, zh](https://github.com/trending?since=daily&spoken_language_code=zh)
+---
 
-**主题搜索 — UI/UX Agent**
-- [nexu-io/open-design](https://github.com/nexu-io/open-design)
-- [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui)
-- [barbarosselimbuyukelci/mobile-ai-ui-ux-revamp-skill](https://github.com/barbarosselimbuyukelci/mobile-ai-ui-ux-revamp-skill)
-- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
-- [veluthoor/ui-ux-design-review-agent](https://github.com/veluthoor/ui-ux-design-review-agent)
-- [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
-- [opendilab/awesome-ui-agents](https://github.com/opendilab/awesome-ui-agents)
+## 🗑️ 3 件噪音
 
-**主题搜索 — 自动化测试 / AI Test Gen**
-- [confident-ai/deepeval](https://github.com/confident-ai/deepeval)
-- [herchila/unittest-ai-agent](https://github.com/herchila/unittest-ai-agent)
-- [LLM-Testing/LLM4SoftwareTesting](https://github.com/LLM-Testing/LLM4SoftwareTesting)
-- [aws-samples/genai-test-automation](https://github.com/aws-samples/genai-test-automation)
-- [mindfiredigital/AUTOTEST](https://github.com/mindfiredigital/AUTOTEST)
-- [ksm26/Automated-Testing-for-LLMOps](https://github.com/ksm26/Automated-Testing-for-LLMOps)
+### 噪音 1：SWE-1.5 "比 Sonnet 4.5 快 13×"
 
-**主题搜索 — 视频剪辑自动化**
-- [FireRedTeam/FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline)
-- [HKUDS/VideoAgent](https://github.com/HKUDS/VideoAgent)
-- [HKUDS/ViMax](https://github.com/HKUDS/ViMax)
-- [aregrid/frame](https://github.com/aregrid/frame)
-- [poseljacob/agentic-video-editor](https://github.com/poseljacob/agentic-video-editor)
-- [mazsola2k/ai-video-editor](https://github.com/mazsola2k/ai-video-editor)
+Cognition / Windsurf 一直在重复这个数字。它没说**什么任务、什么 batch size、什么硬件、什么 prompt 长度**。13× 速度在 1k token 推理和在 200k context agentic 任务上意义完全不同。任何 benchmark 没有 controlled comparison 都是 marketing。比这更重要的是 Windsurf Teams 涨到 $40/seat——这告诉你 Cognition 在用收购后的定价权"先卖给信徒，等下一代再说"。
+
+### 噪音 2：OpenClaw 373k⭐ / Hermes Agent 12 周 160k⭐
+
+这些是**消费者 AI 助手**——WhatsApp/Telegram/Slack 上的个人 agent。跟你做独立 iOS 开发完全无关。star 数大是因为消费者市场基数大，不代表它们对开发者有任何意义。新闻媒体喜欢报这个数字（"史上最快增长开源项目"），但点开 README 你会发现跟你的工作没有任何 API surface 重合。**忽略**。
+
+### 噪音 3：HN 第 N 次的 "Productivity Panic of 2026"
+
+[HN #47467922](https://news.ycombinator.com/item?id=47467922) 这个帖子已经在 5 月的报告里出现过至少 3 次。每次讨论都是同样的循环：管理层追 AI 生产力 KPI → 工程师承担 review 成本 → 共识"AI 写得快但留下 review 债"。**这个共识 3 月份就稳定了**。继续刷它的人是在用集体焦虑取暖，不是在产生新认知。这周如果你看到 HN 出现这个话题再次冲热，**直接划走**。
+
+---
+
+## 🎯 一个反共识
+
+**主流叙事：GitHub star 增长 = 项目质量信号**。新闻每周报道"OpenClaw 突破 React"、"Hermes 12 周 160k"、"Karpathy CLAUDE.md 一个文件 150k"——把 star 数当做事实裁判。
+
+**我不同意**。star 数现在严重失真，原因是 **AI coding 圈的"集邮文化"**——工程师看到任何带 "claude-code" / "skill" / "agent" 关键词的项目就 star，作为一种"我在跟进前沿"的姿态。50 天 hotspot 历史就是证据：我（这个 skill 自己）反复推荐过 codegraph (40k⭐)、Understand-Anything (40k⭐)、taste-skill (24k⭐)——**没有一个被你实际装上**（grep 测试结果，参考前一轮辩论数据）。
+
+真正的项目质量信号不是 star，是**"被引用进生产工作流的次数"**。obra/superpowers 209k⭐ 看着很猛，但它**真的被嵌进你 80+ skill 体系**——这是 1 次有效采纳。Karpathy CLAUDE.md 140k⭐，你装了 karpathy-guidelines skill——这也是 1 次。剩下 150k+ star 的项目里，0 个被你采纳。
+
+**结论**：star 数衡量的是**注意力流通**，不是**生产力流通**。下次看到"X 项目突破 Y star"标题，先问"这个项目的 production 用户有谁"——如果答不出，那个 star 数就是表演。
+
+---
+
+## 📱 跟 SnapStamp / iOS 工作流的关联
+
+**今天的事里，3 件跟你直接相关，1 件无关。**
+
+直接相关：(1) `taste-skill` 值得今晚装一下试。你的报告/wiki/SwiftUI 注释都有 AI 味污染，这是低风险高回报的实验。(2) Claude Code `/goal` 命令——下次跑 IJP* fix 试着用，看能不能让 ae-issue-orchestrate Phase 3 从"手动派 subagent"变成"指定完成条件让 Claude 自己跑"。(3) Anthropic 5/19 那篇 ["Self-Hosted Sandboxes and MCP Tunnels"](https://www.anthropic.com/news) 不直接影响 SnapStamp，但**如果你之后想做 SnapStamp 后端的 MCP 接入**（让 Claude 通过 MCP 查邮票数据库），这个 sandbox 机制是关键基础设施。
+
+无关：今天 OpenAI 那堆动态（GPT-5.5 Instant 默认、ChatGPT 个人理财、Realtime Voice、Deployment Company）——你不用 ChatGPT 做开发，跟 SnapStamp 邮票识别 / iOS 工作流 0 关联。**不要硬扯**。
+
+---
+
+## 📎 原文引用
+
+⭐ [Anthropic — Claude Mythos prepares public release via Claude Code](https://cybersecuritynews.com/claude-mythos-moves-toward-public/) — 如果只点一个，点这个。它告诉你 Anthropic 模型分层投放战略的具体形态。
+
+- [Claude Code Weekly digest (W13–W20)](https://code.claude.com/docs/en/whats-new) — 过去 9 周功能落地的原文清单，是"agent OS"判断的证据基础。
+- [GitHub Trending Daily](https://github.com/trending?since=daily) — 自己刷一遍验证 taste-skill / stop-slop 的爆发是不是真的。
+- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — 装这个，今晚 30 分钟实验。
+- [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) — taste-skill 同主题对照组。
+- [Anthropic 5/27 三连发 — Source Code Security / Zero Trust / CodeRabbit](https://www.anthropic.com/news) — Mythos 战略的背景叙事。
